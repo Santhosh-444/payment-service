@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RR Technosoft | DevOps & Multi-Cloud</title>
+
+<!-- Premium Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  background: radial-gradient(circle at top,
+      #1a2a6c,
+      #000428,
+      #020024);
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* LIGHTNING EFFECT */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(120deg,
+      transparent 30%,
+      rgba(0,255,255,0.08) 50%,
+      transparent 70%),
+    radial-gradient(circle at 20% 10%, rgba(0,255,255,0.15), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(255,0,255,0.12), transparent 40%);
+  pointer-events: none;
+  animation: lightning 6s infinite linear;
+}
+
+@keyframes lightning {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 90px 20px 60px;
+  backdrop-filter: blur(12px);
+}
+
+/* BRAND */
+.brand {
+  font-family: 'Italiana', serif;
+  font-size: 78px;
+  letter-spacing: 6px;
+  background: linear-gradient(90deg, #ffd700, #ffffff, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 40px rgba(255,215,0,0.6);
+}
+
+/* SUBTITLE */
+.subtitle {
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #cfd9ff;
+}
+
+.subtitle span {
+  color: #00e5ff;
+}
+
+/* BADGES */
+.badges {
+  margin-top: 35px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 10px 26px;
+  margin: 8px;
+  border-radius: 40px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #00e5ff, #6a00ff);
+  box-shadow: 0 0 25px rgba(0,229,255,0.6);
+}
+
+/* SECTIONS */
+section {
+  max-width: 1250px;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 22px;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.12),
+    rgba(255,255,255,0.04)
+  );
+  backdrop-filter: blur(18px);
+  box-shadow: 0 40px 120px rgba(0,0,0,0.7);
+}
+
+/* HEADINGS */
+section h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  background: linear-gradient(90deg, #00e5ff, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* LISTS */
+ul {
+  list-style: none;
+  columns: 2;
+}
+
+ul li {
+  padding: 10px 0;
+  font-size: 17px;
+  color: #e8e8e8;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.cta button {
+  padding: 20px 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #000;
+  background: linear-gradient(90deg, #ffd700, #00e5ff);
+  box-shadow: 0 0 60px rgba(0,229,255,0.8);
+}
+
+/* FOOTER */
+footer {
+  background: rgba(0,0,0,0.8);
+  padding: 25px;
+  text-align: center;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">RR TECHNOSOFT</div>
+  <div class="subtitle">DEVOPS with <span>Multi-Cloud (AWS & Azure)</span></div>
+
+  <div class="badges">
+    <span class="badge">100% Job Assistance</span>
+    <span class="badge">Live Hands-On Training</span>
+    <span class="badge">Real-Time Projects</span>
+    <span class="badge">AI-Powered Learning</span>
+  </div>
+</header>
+
+<section>
+  <h2>DevOps Technologies</h2>
+  <ul>
+    <li>Linux Administration</li>
+    <li>Shell Scripting</li>
+    <li>Git & GitHub</li>
+    <li>Maven</li>
+    <li>Jenkins CI/CD</li>
+    <li>Docker</li>
+    <li>Kubernetes</li>
+    <li>Ansible</li>
+    <li>Terraform</li>
+    <li>SonarQube & JFrog</li>
+  </ul>
+</section>
+
+<section>
+  <h2>AWS & Azure Multi-Cloud</h2>
+  <ul>
+    <li>AWS EC2, S3, IAM, VPC, RDS</li>
+    <li>EKS & ECR</li>
+    <li>CloudWatch & Route 53</li>
+    <li>Azure VMs</li>
+    <li>Azure DevOps</li>
+    <li>Azure Pipelines</li>
+    <li>Azure VNET</li>
+    <li>Azure Blob Storage</li>
+    <li>Azure DNS</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Monitoring & AI Tools</h2>
+  <ul>
+    <li>Prometheus</li>
+    <li>Grafana</li>
+    <li>Loki</li>
+    <li>Node Exporter</li>
+    <li>GitHub Copilot</li>
+    <li>AI-Assisted DevOps Automation</li>
+  </ul>
+</section>
+
+<div class="cta">
+  <button>Enroll Now</button>
+</div>
+
+<footer>
+  © 2026 RR Technosoft | Premium DevOps & Multi-Cloud Training | Hyderabad
+</footer>
+
+</body>
+</html>
